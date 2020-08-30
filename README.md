@@ -15,7 +15,9 @@ O curso é voltado para quem deseja aprender o processo de criação de web site
 
 - <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/CODE-TOOLS-5151d8?style=flat-square&logo=visual%20studio%20code" alt="vs code"></a>  
 
-- Adobe XD
+- <a href="https://www.adobe.com/br/products/xd.html" target="_blank"><img src="https://img.shields.io/badge/XD-TOOLS-ff61f6?style=flat-square&logo=adobe%20xd" alt="vs code"></a>  
+
+
 
 ### Informações sobre o curso:
 - **Duração Total**: 22 horas de vídeo 
