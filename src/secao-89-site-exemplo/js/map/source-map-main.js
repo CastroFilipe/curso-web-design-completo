@@ -1,0 +1,1 @@
+{"version":3,"file":"js/main.min.js","sources":["js/source/main.js"],"names":["$","origami","speed","hover","toggleClass","click"],"mappings":"AAAAA,EAAE,YAAYC,SACZC,MAAO,MAGTF,EAAE,YAAYG,MAAM,WAChBH,EAAE,YAAYI,YAAY,gBAG9BJ,EAAE,iBAAiBG,MAAM,WACrBH,EAAE,yBAAyBI,YAAY,gBAG3CJ,EAAE,gBAAgBK,MAAM,WACpBL,EAAE,gBAAgBI,YAAY"}
