@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Elementos e estrutura de uma página</title>
+    <style>
+        label {
+            background-color: gray;
+        }
+
+        header {
+            background-color: #00a78b;
+        }
+
+        nav {
+            background-color: #ff7b7b;
+        }
+
+        main {
+            padding: 10px;
+            background-color: #89fd6c;
+        }
+
+        aside {
+            background-color: rgb(167, 84, 170);
+        }
+
+        footer {
+            background-color: rgb(206, 206, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Esse é o cabeçalho (header) principal que vai ser usado em todas as páginas do nosso website -->
+    <header>
+        <label>cabeçalho (header)</label>
+        <br>
+        <img src="#" alt="my logo">
+    </header>
+
+    <!-- O Elemento HTML de Navegação (<nav>) representa uma seção de uma página que aponta para 
+        outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.
+
+        Obs: manter a navegção independente do header facilita em questões de acessibilidade.
+    -->
+    <nav>
+        <label>Navegação (nav)</label>
+        <br>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Nosso time</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+
+        <!-- Um formulário de pesquisa é uma outra maneira não linear comum de navegar por um site. -->
+        <form>
+            <input type="search" name="q" placeholder="Search query">
+            <input type="submit" value="Go!">
+        </form>
+    </nav>
+
+    <!-- Esse é o conteúdo principal da nossa página -->
+    <main>
+        <label>main (main)</label>
+        <br>
+
+        <!-- Contém um artigo -->
+        <article>
+            <h2>Article</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus.
+                Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec
+                consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget
+                libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut
+                porta lorem lacinia consectetur.</p>
+
+            <h3>Subsection</h3>
+
+            <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis
+                felis, pulvinar a semper sed, adipiscing id dolor.</p>
+
+            <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus,
+                enim sit amet elit pharetra tincidunt feugiat nist imperdiet.</p>
+
+            <h3>Another subsection</h3>
+
+            <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis
+                natoque penatibus et manis dis parturient montes, nascetur ridiculus mus.</p>
+
+        </article>
+
+        <!-- O contéudo do elemento aside pode ser aninhado dentro do conteúdo do elemento main -->
+        <aside>
+            <label>rodapé (footer)</label>
+            <br>
+            <h2>Related</h2>
+
+            <ul>
+                <li><a href="#">Leia sobre HTML</a></li>
+                <li><a href="#">Css, como utilizar</a></li>
+                <li><a href="#">As 5 linguagens de programação mais populares</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Esse é o rodapé principal que vai ser usado em todas as páginas do nosso website.
+    O rodapé pode fazer parte de outros elementos como um article, nesse caso o footer 
+    irá representar o rodape do article e não da página.-->
+
+    <footer>
+        <label>rodapé (footer)</label>
+        <br>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+</body>
+
+</html>
