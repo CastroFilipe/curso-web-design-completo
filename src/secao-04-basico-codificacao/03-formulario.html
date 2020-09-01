@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de um Formulário</title>
+    <style>
+        form {
+            border: 1px solid #ccc;
+            width: 50vw;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Formulário</h1>
+
+    <form action="">
+        <label for="fname">First name</label><br>
+        <input id="fname" name="fname" type="text" required><br>
+
+        <label for="lname">Last name</label><br>
+        <input id="lname" name="lname" type="text" required><br>
+
+        <h2>Preferências</h2>
+        <div>
+            <label for="esporte">Esporte</label>
+            <input id="esporte" name="pref" type="radio" value="esp">
+            <br>
+
+            <label for="tecnologia">Tecnologia</label>
+            <input id="tecnologia" name="pref" type="radio" value="tecn">
+            <br>
+
+            <label for="educacao">Educação</label>
+            <input id="educacao" name="pref" type="radio" value="educ">
+            <br>
+        </div>
+
+        <h2>Opções</h2>
+        <div>
+            <label for="notificacao">Desejo receber notificações</label>
+            <input id="notificacao" type="checkbox" name="notif" value="true">
+            <br>
+
+            <label for="notificacao">Aderir ao plano de fidelidade</label>
+            <input id="fidelidade" type="checkbox" name="fideli" value="true">
+            <br>
+        </div>
+        <br>
+
+        <label for="depoimento">Depoimento:</label>
+        <br>
+        <textarea id="depoimento" name="depoimento" rows="4" cols="50">Diga no que acredita...</textarea>
+
+        <br>
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+
+</html>
