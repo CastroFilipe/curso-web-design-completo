@@ -1,6 +1,6 @@
 # Curso de web design completo
 ![Status em progresso](https://img.shields.io/badge/STATUS-EM%20PROGRESSO-009178?style=flat) 
-![Progresso](https://img.shields.io/badge/PROGRESSO-000%25-brightgreen) 
+![Progresso](https://img.shields.io/badge/PROGRESSO-55%25-brightgreen) 
 <a href="https://unlicense.org/" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/CastroFilipe/web-design-completo-origamid"></a>  
 
 O repositório contém o código fonte e demais recursos desenvolvidos durante o acompanhamento das aulas do curso “Web design completo”, disponível na plataforma de cursos [Origamid](https://www.origamid.com/).  
@@ -23,7 +23,7 @@ O curso é voltado para quem deseja aprender o processo de criação de web site
 - **Duração Total**: 22 horas de vídeo 
 - **Carga Horária**: -  
 - **Principais tópicos abordados**: HTML5; CSS3; Javascript; Adobe XD; Tipografia; SEO, Ui/Ux design
-- **Progresso**: 000%   
+- **Progresso**: Curso em andamento.   
 - **Status**: :hourglass_flowing_sand: Em progresso 
 * **Link para o curso**: [Clique aqui](https://www.origamid.com/curso/web-design-completo/)
 
