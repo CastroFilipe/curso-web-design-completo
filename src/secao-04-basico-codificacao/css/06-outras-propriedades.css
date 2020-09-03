@@ -1,0 +1,57 @@
+body {
+    
+    background-color: #585858;
+    
+    /* Propriedade que adiciona uma imagem de background.
+    Essa propriedade irá substituir a cor de background definida,
+    não importando a ordem de declaração */
+    background-image: url(../img/esporte-1.jpg);
+
+    /* Impedirá que a imagem seja repetida caso o body seja maior que a imagem. */
+    background-repeat: no-repeat;
+
+    /* Coloca o centro da imagem no centro do container */
+    background-position: center;
+
+    /* define o tamanho da imagem, nesse caso a imagem original usada no background
+    não é um quadrado perfeito, logo a foto será "esticada".
+    O ideal é utilizar a imagem com o tamanho já definido, sem precisar usar a propriedade
+    background-size */
+    background-size: 1000px 1000px;
+
+    color: #fff;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.propriedade-background {
+    background-color: #6e6e6e;
+
+    background-image: url(../img/instagram.png);
+
+    /* repeat é o valor padrão e fará a imagem ser repetida 
+    se o elemento container for maior que a imagem */
+    background-repeat: repeat;
+}
+
+.textura {
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/textura3.png);
+}
+
+.cover {
+    margin-top: 800px;
+    width: 600px;
+    height: 600px;
+    background-position: center;
+
+    background-image: url(../img/esporte-1.jpg);
+
+    /* tentará ajustar a foto de modo a caber no container, sem estica-lá */
+    background-size: cover;
+}
