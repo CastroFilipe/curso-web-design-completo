@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Propriedades para estilização de fontes</title>
+    <link rel="stylesheet" href="css/01-propriedades-fonte.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2 class="titulo">color</h2>
+            <p>A propriedade color define a cor da fonte. Os valores válidos para essa Propriedades
+                são os tradicionais valores para aplicação de cores como valores em hexadecimal, Rgb, Rgba etc.
+            </p>
+            <p>
+                Alguns exemplos:
+            </p>
+            <ul>
+                <li class="cor1">Cor definida em hexadecimal</li>
+                <li class="cor2">Cor definida com RGB</li>
+                <li class="cor3">Cor definida com variável fixa: red, blue, orange, pink etc.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="titulo">font-family</h2>
+            <p>Define a família de fontes que será utilizada na renderização do texto.
+                Alguns exemplos populares são as combinações:
+            </p>
+            <ul>
+                <li class="familia1">Georgia, 'Times New Roman', serif</li>
+                <li class="familia2">Helvetica, Arial, sans-serif</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="titulo">font-size</h2>
+            <p>A propriedade font-size define o tamanho da fonte, que pode ser expresso nas unidades
+                px, em, rem, etc.
+            </p>
+            <ul>
+                <li class="tamanho1">font com tamanho 16px</li>
+                <li class="tamanho2">Fonte com tamanho de 1.2em (1.2 referente ao tamanho da fonte do elemento pai)</li>
+                <li class="tamanho3">fonte com tamanho de 1.2rem (1.2 referente ao tamanho da fonte do elemento raiz(html))</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="titulo">font-style</h2>
+            <p>A propriedade font-style define o estilo da fonte, podendo ser italic, oblique ou normal
+            </p>
+            <ul>
+                <li class="style1">Texto normal</li>
+                <li class="style2">Texto italic</li>
+                <li class="style3">Texto oblique</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="titulo">font-variant</h2>
+            <p>
+                A propriedade font-variant está relacionada com textos em CAIXA ALTA e define a
+                forma como os caracteres são apresentados. Os valores possíveis para essa
+                propriedade são “normal” e o “small-caps”
+            </p>
+            <p class="variante1">normal: Texto Camel Case De Exemplo</p>
+            <p>TEXTO EM CAIXA ALTA DE EXEMPLO</p>
+            <p class="variante2">small-caps: Texto Camel Case De Exemplo</p>
+        </section>
+
+        <section>
+            <h2 class="titulo">font-weight</h2>
+            <p>
+                A propriedade define o peso da fonte, que vai de 100 a 900. Para ter disponível todos
+                os valores dessa faixa é necessário que a fonte instalada tenha todos os valores
+                disponíveis. Geralmente as fontes instaladas na máquina do usuário possuem apenas as
+                variações normal(400) e bold(700)
+            </p>
+            <p> No exemplo abaixo será utilizada a fonte montserrat, disponível no google fonts, e
+                que tem disponível todas os pesos necessários para a renderização correta
+            </p>
+            <div class="fonte-montserrat">
+                <p class="peso100">Texto com peso 100</p>
+                <p class="peso200">Texto com peso 200</p>
+                <p class="peso300">Texto com peso 300</p>
+                <p class="peso400">Texto com peso 400</p>
+                <p class="peso500">Texto com peso 500</p>
+                <p class="peso600">Texto com peso 600</p>
+                <p class="peso700">Texto com peso 700</p>
+                <p class="peso800">Texto com peso 800</p>
+                <p class="peso900">Texto com peso 900</p>
+            </div>
+
+            <p> No exemplo abaixo será utilizada a fonte arial, geralmente instalada apenas com os
+                pesos normal e bold. A maioria dos pesos não é estilizado de forma correta já que
+                eles não estão disponíveis, nesse caso o peso de valor mais próximo é utilizado
+                para a renderização dos valores que estão faltando.
+            </p>
+            <div class="fonte-arial">
+                <p class="peso100">Texto com peso 100</p>
+                <p class="peso200">Texto com peso 200</p>
+                <p class="peso300">Texto com peso 300</p>
+                <p class="peso400">Texto com peso 400</p>
+                <p class="peso500">Texto com peso 500</p>
+                <p class="peso600">Texto com peso 600</p>
+                <p class="peso700">Texto com peso 700</p>
+                <p class="peso800">Texto com peso 800</p>
+                <p class="peso900">Texto com peso 900</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

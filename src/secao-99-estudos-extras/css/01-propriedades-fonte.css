@@ -1,0 +1,131 @@
+/*GERAL*/
+
+/* Importanto fonte Montserrat com todos os pesos disponíveis */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: rgb(235, 250, 235);
+    font-size: 1.2rem;
+}
+
+main {
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 680px;
+}
+
+section {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.titulo {
+    margin: 0;
+
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+/*PROPRIEDADE COLOR*/
+
+.cor1 {
+    color: #003e9b
+}
+
+.cor2 {
+    color: rgb(26, 117, 26);
+}
+
+.cor3 {
+    color: saddlebrown;
+}
+
+/*PROPRIEDADE FONT-FAMILY*/
+.famil1 {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.familia2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*PROPRIEDADE FONT-SIZE*/
+.tamanho1 {
+    font-size: 16px;
+}
+
+.tamanho2 {
+    font-size: 1.2em;
+}
+
+.tamanho3 {
+    font-size: 1.2rem;
+}
+
+/*PROPRIEDADE FONT-STYLE*/
+.style1 {
+    font-style: normal;
+}
+
+.style2 {
+    font-style: italic;
+}
+
+.style3 {
+    font-style: oblique;
+}
+
+/*PROPRIEDADE FONT-VARIANT*/
+.variante1 {
+    font-variant: normal;
+}
+
+.variante2 {
+    font-variant: small-caps;
+}
+
+/*PROPRIEDADE FONT-WEIGHT*/
+
+.fonte-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fonte-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.peso100 {
+    font-weight: 100;
+}
+
+.peso200 {
+    font-weight: 200;
+}
+
+.peso300 {
+    font-weight: 300;
+}
+
+.peso400 {
+    font-weight: 400;/*normal*/
+}
+
+.peso500 {
+    font-weight: 500;
+}
+
+.peso600 {
+    font-weight: 600;
+}
+
+.peso700 {
+    font-weight: 700;/*bold*/
+}
+
+.peso800 {
+    font-weight: 800;
+}
+
+.peso900 {
+    font-weight: 900;
+}
