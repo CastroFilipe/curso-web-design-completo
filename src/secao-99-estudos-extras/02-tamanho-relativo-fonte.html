@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tamanhos relativos para fonte</title>
+    <link rel="stylesheet" href="css/02-tamanho-relativo-fonte.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>Unidade <em>em</em></h2>
+            <p>
+                A unidade <strong>em</strong> é relativa ao tamanho da fonte(font-size)
+                do elemento pai. O paragrafo abaixo tem como elemento pai a section, que possui font-size: 16px (herdados do body);
+            </p>
+            <p class="unidade-em">
+                Texto de exemplo com font-size = 1.2em = 1.2 x 16px = 19.2px
+                <br>
+                <span>
+                    Elemento span interno ao paragrafo com font-size: 1.2em =
+                    1.2 x 19.2 = 23,04px
+                </span>
+            </p>
+        </section>
+
+        <section>
+            <h2>Unidade <em>rem</em></h2>
+            <p>
+                A unidade <strong>rem</strong> é relativa ao tamanho da fonte(font-size)
+                do elemento raiz da página(html). Em configurações padrões, os navegadores
+                geralemnte possuem 16px de tamanho de fonte.
+            </p>
+            <p class="unidade-rem">
+                Texto de exemplo com font-size = 1.2rem = 1.2 x 16px = 19.2px
+                <br>
+                <span>
+                    Elemento span interno ao paragrafo com font-size: 1.2rem.
+                    O tamanho de fonte do elemento pai não interfere.
+                </span>
+            </p>
+        </section>
+
+        <section>
+            <h2>Unidade <em>%</em></h2>
+            <p>
+                Font-size definido em <strong>%</strong> é relativa ao tamanho da fonte
+                do elemento pai.
+            </p>
+            <p class="unidade-porcentagem">
+                Texto de exemplo com font-size = 150% = 1.5 x 16px = 24px
+                <br>
+                <span>
+                    Elemento span interno com font-size: 120% = 1.2 x 24px = 28.8px
+                </span>
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
