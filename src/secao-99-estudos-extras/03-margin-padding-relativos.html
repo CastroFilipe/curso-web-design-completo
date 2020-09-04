@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos relativos para margin e padding</title>
+    <link rel="stylesheet" href="css/03-margin-padding-relativos.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>Unidade <em>em</em> para margin e padding</h2>
+            <p>
+                Quando as propriedades margin e padding são setadas com a undiade de
+                medida relativa <em>em</em> será considerado o tamanho da fonte do
+                proprio elemento e não o tamanho de fonte do elemento pai.
+                Exemplo:
+            </p>
+            <div class="pai">
+                Div Pai: O texto está definido como 1.2em = 19.2px.
+                <br>
+                As propriedades margin e padding, que estão setadas com valores definidos
+                na unidade <em>em</em>, são relativas ao tamanho de fonte do próprio
+                elemento(19.2px) e não ao elemento pai(16px).
+
+                <div class="filha">
+                    Div filha: O texto está definido como 1.1em = 1.1 * 19.2px = 21.12px.
+                    <br>
+                    O padding está definido como 1.5em = 1.5 * 21.12px = 31.68px
+                </div>
+            </div>
+            <p>
+                Em resumo: Quando definimos um valor com uma unidade relativa para a
+                propriedade font-size, o cálculo será feito em relação ao tamanho da
+                fonte do elemento Pai.
+                <br>
+                Quando se trata das propriedades margin e padding o cálculo é feito em
+                relação ao tamanho da fonte do próprio elemento.
+            </p>
+            <p>
+                Obs: Quando se trata da unidade <em>rem</em> esse comportamento não ocorre.
+                Propriedades definidas com rem são relativas ao tamanho do elemento raiz, sem pegadinhas.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>

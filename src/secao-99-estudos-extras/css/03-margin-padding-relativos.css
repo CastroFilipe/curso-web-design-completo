@@ -1,0 +1,35 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #fdabab;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    min-width: 580px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.pai {
+    border: 1px solid white;
+
+    /*19.2px*/
+    font-size: 1.2em;
+
+    /*1.2 x 19.2px = 23.04px*/
+    padding: 1.2em;
+    margin: 1.2em;
+}
+
+.filha {
+    border: 1px solid white;
+
+    /* 21.12px */
+    font-size: 1.1em;
+
+    /* 31.68px */
+    padding: 1.5em;
+}
