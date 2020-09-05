@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    
+    background-color: #1f0d37;
+
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+main {
+    margin: 0 auto;
+    padding: 30px;
+    min-width: 580px;
+    max-width: 680px;
+    min-height: 100vh;
+
+    background-color: #0a060e;
+
+    box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.15);
+}
+
+h2 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+/*  HOVER */
+
+.botao {
+    width: 150px;
+    height: 40px;
+
+    background-color: salmon;
+
+    outline: none;
+}
+
+.botao:hover {
+    background-color: lightseagreen;
+
+    width: 200px;
+    height: 60px;
+
+    font-size: 1.4rem;
+}
+
+/* LINK, VISITED, HOVER e ACTIVE */
+
+.link:link {
+
+    color: orange;
+    
+}
+
+.visited:visited {
+    color: pink;
+}
+
+.hover:hover {
+    font-size: 1.1em;
+    color: red;
+}
+
+.active:active {
+    font-size: 1.1em;
+    color: green;
+}
+
+/* CHECKED */
+form input:checked {
+    width: 25px;
+    height: 25px;
+    outline: red;
+}
+
+/* FIRST-CHILD */
+.lista li:first-child {
+    color: red;
+}
+
+/* FIRST-OF-TYPE */
+
+article {
+    padding-left: 30px;
+    border: 1px solid rgba(255, 255, 2555, 0.2);
+}
+
+.pai p:first-of-type {
+    color: red;
+}

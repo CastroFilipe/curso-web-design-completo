@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/04-pseudo-classes.css">
+    <title>Pseudo-classe</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>Pseudo-classe</h2>
+            <p>
+                Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que
+                especifica um estado especial do elemento selecionado.
+            </p>
+        </section>
+        <section>
+            <h2>:hover</h2>
+            <p>
+                Um estilo pode ser aplicado quando o cursor do mouse passa no elemento.
+            </p>
+            <input class="botao" type="button" value="Passe o mouse">
+        </section>
+        <section>
+            <h2>LVHA :link — :visited — :hover — :active</h2>
+            <p>
+                Estilos que podem ser aplicados em links.
+                <br>
+                :link - Define o estilo a ser aplicado a um link não visitado.
+                <br>
+                :visited - Define o estilo a ser aplicado a um link já visitado.
+                <br>
+                :hover - Como mencionado anteriormente, define o estilo ao passar o
+                cursor do mouse no elemento.
+                <br>
+                :active - Define o estilo aplicado ao link no momento de execução do clique.
+            </p>
+            <a class="link" href="#">Link</a>
+            <a class="visited" href="#">Visited</a>
+            <a class="hover" href="#">Hover</a>
+            <a class="active" href="#">Active</a>
+
+            <a class="link visited hover active" href="#">Todos os estilos</a>
+        </section>
+        <section>
+            <h2>:checked</h2>
+            <p>
+                Aplica estilo a um input selecionado.
+            </p>
+            <form action="">
+                <label for="opmasculino">Masculino</label>
+                <input id="opmasculino" type="radio" checked="checked" value="masculino" name="genero">
+
+                <label for="opfeminino">feminino</label>
+                <input id="opfeminino" type="radio" value="feminino" name="genero"><br>
+
+                <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+                <input type="checkbox" value="Car"> I have a car
+            </form>
+        </section>
+        <section>
+            <h2>:first-child</h2>
+            <p>
+                Seleciona o primeiro elemento filho.
+                Na lista(ul) abaixo podemos selecionar o primeiro Filho
+            </p>
+            <ul class="lista">
+                <li>Primeiro filho</li>
+                <li>Segundo filho</li>
+                <li>Terceiro filho</li>
+            </ul>
+        </section>
+        <section>
+            <h2>:first-of-type</h2>
+            <p>
+                Seleciona o primeiro elemento filho de um determinado tipo.
+                No article abaixo podemos selecionar o primeiro elemento do tipo p.
+            </p>
+            <article class="pai">
+                <div>Esse texto está dentro de uma div</div>
+                <br>
+                <span>Esse texto está dentro de um span</span>
+                <br>
+                <p>Esse texto está dentro do primeiro parágrafo</p>
+                <p>Esse texto está dentro de outro parágrafo</p>
+            </article>
+            <p>
+                Obs: As pseudo-classes <em>:last-child</em> e
+                <em>:last-of-type</em> funcionam de forma semelhante
+                a :first-child e :first-of-type, porém em relação ao
+                último elemento.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
