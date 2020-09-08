@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../fonts/CormorantGaramond-Bold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto Regular', sans-serif;
+}
+
+body {
+    min-width: 500px;
+    max-width: 680px;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    border: 1px solid black;
+
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 0 20px;
+}
+
+section {
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.lista li::after {
+    content: '!!!!!!';
+    color: navy;
+    font-weight: bold;
+}
+
+.lista li::before {
+    content: 'Conteúdo antes ';
+    color: navy;
+    font-weight: bold;
+}
+
+.texto::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.paragrafos p::first-line {
+    color: red;
+    font-weight: bold;
+}
+
+.selecao p::selection {
+    color: yellow;
+    background-color: black;
+}

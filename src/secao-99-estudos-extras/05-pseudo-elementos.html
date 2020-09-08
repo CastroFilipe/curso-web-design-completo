@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo-elementos</title>
+    <link rel="stylesheet" href="css/05-pseudo-elementos.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h2>Pseudo-elementos</h2>
+            <p>
+                Em CSS, um seletor pseudo-element aplica estilos em partes do
+                conteúdo do seu documento em cenários onde não há elementos
+                HTML específicos para selecionar.
+            </p>
+        </section>
+        <section>
+            <h2>::after</h2>
+            <p>
+                Insere algum conteudo após o elemento selecionado.
+            </p>
+            <ul class="lista">
+                <li>primeiro: </li>
+                <li>segundo: </li>
+                <li>terceiro: </li>
+            </ul>
+        </section>
+        <section>
+            <h2>::before</h2>
+            <p>
+                Insere algum conteudo antes do elemento selecionado.
+            </p>
+            <ul class="lista">
+                <li>primeiro: </li>
+                <li>segundo: </li>
+                <li>terceiro: </li>
+            </ul>
+        </section>
+        <section>
+            <h2>::first-letter</h2>
+            <p>
+                Seleciona a primeira letra de um elemento.
+            </p>
+            <p class="texto">
+                Lorem ipsum dolor sit amet...
+            </p>
+        </section>
+        <section>
+            <h2>::first-line</h2>
+            <p>
+                Seleciona a primeira linha de um elemento selecionado.
+            </p>
+            <div class="paragrafos">
+                <p>
+                    Primeiro Parágrafo: Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sedd o eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+                <p>
+                    Segundo Parágrafo: Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+                <p>
+                    Terceiro Parágrafo: Duis aute irure dolor in reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>::selection</h2>
+            <p>
+                Aplicará um estilo ao conteúdo selecionado, pelo usuário, com o mouse.
+            </p>
+            <div class="selecao">
+                <p>
+                    Selecione o texto abaixo: <br>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sedd o eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
