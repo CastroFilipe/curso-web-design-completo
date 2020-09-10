@@ -1,0 +1,91 @@
+/* ESTILOS */
+
+.caixa {
+    font-size: 1.6rem;
+    border: 2px solid red;
+
+}
+
+.item {
+    margin: 5px;
+    border: 2px solid red;
+}
+
+.big {
+    font-size: 3rem;
+}
+
+/* DISPLAY: FLEX; */
+
+.caixa-flex {
+    /* 
+        Propriedade que define o elemento como um flex-box.
+        A partir disso todos os itens internos a caixa são seus flex-items 
+    */
+    display: flex;
+
+    /* 
+        A propriedade flex-direction define a direção do MAIN-AXIS
+    */
+    flex-direction: row; /*padrão*/
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    flex-direction: row;
+
+    /* 
+        Por padrão os elementos fazem o overflow quando não cabem dentro do 
+        caixa definida como flex-box.
+        Como a largura da caixa foi definida como apenas 30%, os flex-items farão
+        o overflow, ultrapassando o limite da caixa.
+        Esse comportamento pode ser modificado usando a propriedade flex-wrap, que fará a quebra de linha. o Comportamento dessa quebra depende do main-axis setado
+    */
+    width: 30%;
+
+    flex-wrap: nowrap; /*Padrão*/
+    flex-wrap: wrap; /*Fará a quebra de linha*/
+    flex-wrap: wrap-reverse; /*Quebra de linha reversa*/
+
+    /* 
+        As propriedades flex-direction e flex-wrap podem ser combinadas com o
+        flex-flow 
+    */
+    flex-flow: row wrap;
+
+    /*  
+        A propriedade justify-content fará o alinhamento dos flex-items em
+        relação ao MAIN-AXIS. Por isso a disposição alinhada dos flex-items 
+        dependerá tbm da propriedade flex-direction.
+    */
+    justify-content: flex-start; /*(valor padrão)Alinhamento no inicio do main-axis*/
+    justify-content: center; /*alinhamento ao centro do main-axis*/
+    justify-content: flex-end; /*Alinhamento ao fim*/
+    justify-content: space-between; /*Espaçamento entre*/
+    justify-content: space-around; /*Espaçamento igual entre*/
+
+    /* 
+        A propriedade align-items faz o alinhamento dos flex-items em relação
+        ao CROSS-AXIS. 
+    */
+    height: 400px;
+
+    /*Valor padrão(stretch), os flex-itens irão se esticar para ocupar toda a altura*/
+    align-items: stretch;
+    align-items: baseline; /*alinhamento pela linha de base da fonte*/
+    align-items: flex-start; /*alinhamento no início(cross-start)*/
+    align-items: flex-end; /*alinhamento no fim(cross-end)*/
+    align-items: center; /*alinhamento ao centro do CROS-AXIS*/
+
+    /* 
+        A propriedade align-content é utilizada quando se tem mais de uma linha
+        de flex-items 
+    */
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+}
+
+
