@@ -1,0 +1,89 @@
+body {
+    font-size: 2.5rem;
+}
+
+.caixa, .item {
+    border: 5px solid red;
+}
+
+.item {
+    box-sizing: border-box;
+}
+
+.caixa-flex {
+    display: flex;
+    width: 600px;
+    height: 300px;
+}
+
+/* Seleciona o terceiro flex-item */
+.caixa-flex .item:nth-child(3) {
+    background-color: #cc7744;
+
+    /* 
+        A propriedade order define a ordem de posicionamento dos flex-items.
+        Por padrão todos os flex-items possuem order: 0. Os valores possíveis 
+        são números inteiros, inclusive valores negativos.
+        Flex-items com order menores serão posicionados a frente daqueles 
+        com valores de order maior.
+    */
+    
+    /* 
+        Como os outros flex-items possuem order:0, O terceiro flex-item de 
+        order 99 será posicionado por último em relação a disposição dos elementos 
+        no MAIN-AXIS.
+    */
+    order: 99; 
+
+    /* Nesse caso o terceiro flex-item será posicionado a frente dos demais. */
+    order: -10;
+
+    /* 
+        A propriedade align-self é utilizada em um único elemento e 
+        sobrescreve a propriedade align-items.
+        A propriedade align-items pode definir o alinhamento de todos os flex-items,
+        a propriedade align-self é utíl para sobrescrever esse alinhamento para determinado flex-item, sem retirar o alinhamento dos outros.
+
+    */
+    align-self: center; /*Aplicado apenas ao terceiro elemento*/
+    align-self: flex-end;
+    align-self: flex-start;
+    align-self: stretch; /*valor padrão*/
+}
+
+.item {
+    width: 100px;
+
+    /*
+        A propriedade flex-grow indica que o elemento irá se expandir para ocupar toda 
+        a largura do container. O valor padrão zero indica que o elemento não irá se 
+        expandir, ocupando apenas a largura definida.
+        Quando maior o valor atribuído a propriedade flex-grow, maior será a expansão 
+        para um determinado elemento, posicionado em um container com mais de um 
+        flex-item.
+
+        A propriedade flex-shrink funciona de forma semelhante, porém em relação ao 
+        grau de encolhimento de um elemento quando o container for encolhido
+    */
+    flex-grow: 1;
+}
+
+.caixa-flex .item:nth-child(3) {
+    /* 
+        Quando houver espaço disponível no container, o terceiro flex-item se expandirá 
+        numa proporção maior que a dos outros flex-items que possuem o valor 1 para o 
+        flex-grow
+    */
+    flex-grow: 4; 
+    
+    /* 
+        Quando o container for diminuido, o terceiro flex-item sofrerá uma contração 
+        numa proporção maior que a dos outros flex-items, que possuem o valor 1 para o 
+        flex-shrink. Em outras palavras, o terceiro flex-item é o que mais encolherá.
+    */
+    flex-shrink: 4;
+}
+
+.caixa-flex {
+    width: 60vw;
+}
