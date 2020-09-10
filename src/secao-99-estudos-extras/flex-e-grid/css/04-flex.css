@@ -1,0 +1,32 @@
+.container {
+    font-size: 2rem;
+    
+    border: 5px solid red;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    border: 5px solid navy;
+
+    /* 
+        A propriedade flex-basis define o tamanho de um flex-item no sentido do
+        MAIN-AXIS. Se o main-axis for a linha(flex-direction: row) o flex-basis 
+        definirá a largura do flex-item. 
+        Se o main-axis for a coluna(flex-direction: column) a propriedade 
+        flex-basis definirá a altura do flex-item
+        
+    */
+    flex-basis: 100px;
+}
+
+.item-especial {
+    /* 
+        A propriedade flex é um atalho para definir três valores referentes as 
+        propriedades flex-grow, flex-shrink e flex-basis nessa ordem. 
+    */
+    flex: 2 3 60px;
+}
