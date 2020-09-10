@@ -1,0 +1,48 @@
+* html {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 250px;
+    width: 700px;
+
+    font-size: 2rem;
+    
+    border: 5px solid red;
+}
+
+.item {
+    border: 5px solid navy;
+    width: 100px;
+}
+
+.container-flex {
+    display: flex;
+
+    /* 
+        A propriedade align-items sempre definirá o comportamento dos flex-itens 
+        dentro de um container com a prorpiedade display: flex;
+
+        A propriedade não deve ser utilizada em um flex-item e sim no flex container.
+        Logo, ela não define o comportamento de um elemento em especifico e sim de 
+        todos os flex-items.
+
+        Por padrão a propriedade align-items tem como valor o stretch, que fará
+        com que os flex-items sejam esticados para ocupar toda a altura do container.
+    */
+    align-items: stretch;
+}
+
+.item-diferentao {
+    /* 
+        A propriedade align-self é utilizada para definir o comportamento de um 
+        ou mais flex-items, sobrescrevendo nele o comportamento definido pelo 
+        align-items do container.
+        Logo a propriedade não pode ser definida no flex-box e sim dentro de um
+        flex-item.
+        
+        O trecho abaixo define que o flex-item com a classe item-diferentao irá se
+        alinhar ao centro, diferente dos outros flex-items
+    */
+    align-self: center;
+}
