@@ -1,0 +1,29 @@
+body {
+    font-size: 1.2rem;
+    background-color: silver;
+}
+
+.item1 { grid-area: cabecalho; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: aside; }
+.item5 { grid-area: rodape; }
+
+.grid-container {
+    display: grid;
+
+    grid-template-areas:
+        'cabecalho cabecalho cabecalho cabecalho cabecalho cabecalho'
+        'menu main main main aside aside'
+        'rodape rodape rodape rodape rodape rodape';
+
+    gap: 5px 5px;
+    background-color: red;
+}
+
+.grid-container > div {
+    background-color: blue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
