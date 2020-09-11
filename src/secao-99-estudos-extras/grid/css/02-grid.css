@@ -1,0 +1,23 @@
+body {
+    font-size: 1.2rem;
+    background-color: thistle;
+    color: #fff;
+}
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: auto auto auto auto; 
+
+    column-gap: 120px;
+    row-gap: 40px;
+    gap: 25px; /*define o gap na linha e na coluna*/
+    background-color: red;
+}
+
+.item {
+    background-color: blue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
