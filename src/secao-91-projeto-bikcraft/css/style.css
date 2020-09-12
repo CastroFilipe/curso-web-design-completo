@@ -1,10 +1,40 @@
-/* Estilos globais */
+/*==========================
+    ESTILOS GLOBAIS  
+============================*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER/CABEÇALHO */
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+
+    color: #FEC63E;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    vertical-align: baseline;
+
+    border: 3px solid #FEC63E;
+}
+
+.btn:hover {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+/*==========================
+    HEADER/CABEÇALHO  
+============================*/
 
 .header {
     width: 100%; /*100% do body*/
@@ -14,6 +44,12 @@ body {
     top: 0; /*garante que o header ficará posicionado no topo*/
 
     background-color: #FEC63E;
+
+    /* 
+    Necessário para que o header fique por cima dos outros elementos quando
+    o usuário fizer o scroll da página 
+    */
+    z-index: 99;
 }
 
 .header__menu {
@@ -40,4 +76,64 @@ body {
 
 .header__menu ul li a:hover{
     color: #FFF;
+}
+
+/*==========================
+    INTRODUÇÃO 
+============================*/
+
+.introducao {
+    width: 100%;
+    height: 380px; /*Altura da imagem*/
+    /*Necessário pois o header possuí 96px de altura e está definido com position fixed*/
+    margin-top: 96px; 
+    padding-top: 80px; /*para alinhar o texto mais ao centro*/
+
+    background: url('../img/bg.jpg') no-repeat center;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.introducao h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.citacao {
+    max-width: 280px;
+    margin: 0 auto;
+
+    color: #fff;
+}
+
+.citacao p {
+    font-style: italic;
+}
+
+/* Trecho para adição do traço divisor tipográfico. */
+.citacao p::before, .citacao p::after {
+    content: " ";
+
+    display: block;
+    width: 60px;
+    height: 3px;
+    
+    margin: 15px auto 10px auto;
+    
+    background-color: #fff;
+}
+
+.citacao__autor {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.introducao .btn {
+    margin-top: 30px;
 }
