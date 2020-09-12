@@ -1,0 +1,43 @@
+/* Estilos globais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER/CABEÇALHO */
+
+.header {
+    width: 100%; /*100% do body*/
+    padding: 15px 0;
+
+    position: fixed; /*O header irá acompanhar o scroll no site*/
+    top: 0; /*garante que o header ficará posicionado no topo*/
+
+    background-color: #FEC63E;
+}
+
+.header__menu {
+    text-align: right;
+}
+
+.header__menu ul li {
+    display: inline-block;
+
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header__menu ul li a{
+    padding: 10px 0;
+
+    color: #000;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.header__menu ul li a:hover{
+    color: #FFF;
+}
