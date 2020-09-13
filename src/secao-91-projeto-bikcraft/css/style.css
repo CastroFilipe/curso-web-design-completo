@@ -227,28 +227,28 @@ img {
 }
 
 /*==========================
-    PORTIFÓLIO 
+    PORTFÓLIO 
 ============================*/
 
-.portifolio {
+.portfolio {
     width: 100%;
     padding: 40px 0;
 
     background-color: #000;
 }
 
-.portifolio .subtitulo {
+.portfolio .subtitulo {
     color: #FEC63E;
 }
 
-.portifolio .subtitulo::after {
+.portfolio .subtitulo::after {
     background-color: #FEC63E;
 }
 
-.portifolio__lista li:last-child {
+.portfolio__lista li:last-child {
     margin-top: 20px;
 }
 
-.portifolio .call-to-action p {
+.portfolio .call-to-action p {
     color: #fff;
 }
