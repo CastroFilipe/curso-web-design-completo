@@ -143,6 +143,40 @@ img {
 }
 
 /*==========================
+    INTRODUÇÃO-INTERNA  
+============================*/
+
+.introducao-interna {
+    width: 100%;
+    height: 160px;
+    padding: 40px 0;
+    margin-top: 92px;
+
+    background-size: cover;
+
+    color: #fff;
+    text-align: center;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1::after {
+    content: " ";
+
+    display: block;
+    width: 60px;
+    height: 3px;
+    
+    margin: 5px auto 10px auto;
+    
+    background-color: #fff;
+}
+
+/*==========================
     INTRODUÇÃO 
 ============================*/
 
