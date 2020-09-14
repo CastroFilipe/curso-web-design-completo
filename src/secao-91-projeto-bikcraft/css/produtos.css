@@ -1,0 +1,94 @@
+/*==========================
+    PRODUTOS  
+============================*/
+
+.interna-produtos {
+    background: url("../img/bg-produtos.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.passeio, .esporte, .retro {
+    margin-bottom: 60px;
+}
+
+.produto-item {
+    position: relative;
+
+    width: 100%;
+    padding-top: 60px;
+}
+
+.produto-item h2 {
+    position: absolute;
+    top: 110px;
+    left: 240px;
+
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.produto-item h2::after, .produto-item h2::before {
+    content: "";
+    
+    display: block;
+    margin: 8px auto;
+    width: 60px;
+    height: 3px;
+
+    background-color: #fff;
+}
+
+.produto-item__icone {
+    padding: 70px 0;
+    margin-bottom: 20px;
+
+    background-color: #000;
+}
+
+.produto-item__icone img {
+    margin: 0 auto;
+}
+
+.bgitem--margin-extra {
+    margin-bottom: 20px;
+}
+
+.produto-item__info {
+    background-color: #000;
+}
+
+.produto-item__info p {
+    height: 180px;
+    padding: 30px 40px;
+
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.produto-item__info li {
+    float: left;
+    height: 49px;
+    width: 229px;
+    padding-top: 16px;
+
+    background-color: #FEC63E;
+
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.produto-item__info li:nth-child(1), .produto-item__info li:nth-child(2) {
+    margin-bottom: 2px;
+}
+
+.produto-item__info li:nth-child(even) {
+    margin-left: 2px;
+}
