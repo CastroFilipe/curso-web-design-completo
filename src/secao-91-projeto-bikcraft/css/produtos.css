@@ -172,3 +172,49 @@
 	padding: 7px 40px;
 	background: none;
 }
+
+/*==========================
+    ORCAMENTO - DADOS
+============================*/
+
+.orcamento__dados {
+	color: #fff;
+}
+ 
+.orcamento__dados h3{
+	color: #fec63e;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.orcamento__dados span {
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.dados-email {
+	margin-bottom: 40px;
+}
+
+.orcamento__dados ul {
+	padding-right: 60px
+}
+
+.orcamento__dados ul li {
+    padding: 10px 15px;
+    
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+}
+
+.orcamento__dados ul li:nth-child(odd) {
+	background: #1d1d1d;
+}
+
+.orcamento__dados p {
+	margin: 8px 0;
+}
