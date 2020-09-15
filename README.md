@@ -1,6 +1,6 @@
 # Curso de web design completo
 ![Status em progresso](https://img.shields.io/badge/STATUS-EM%20PROGRESSO-009178?style=flat) 
-![Progresso](https://img.shields.io/badge/PROGRESSO-55%25-brightgreen) 
+![Progresso](https://img.shields.io/badge/PROGRESSO-80%25-brightgreen) 
 <a href="https://unlicense.org/" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/CastroFilipe/web-design-completo-origamid"></a>  
 
 O repositório contém o código fonte e demais recursos desenvolvidos durante o acompanhamento das aulas do curso “Web design completo”, disponível na plataforma de cursos [Origamid](https://www.origamid.com/).  
