@@ -2,7 +2,31 @@
     ESTILOS PARA TABLETE  
 ============================*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    /*==========================
+        QUALIDADE 
+    ============================*/
+    /* Trecho para modificar a imagem com linhas */
+    .qualidade::after {
+        right: 66px; 
+    }
 
+    .qualidade__lista li {
+        padding: 0 10px;
+    }
+
+    /*==========================
+        FOOTER 
+    ============================*/
+
+    .footer__social ul li a {
+        padding: 5px;
+    }
+
+    .footer__social ul li a img {
+        /* diminui os icones das redes sociais */
+        width: 26px;
+        height: 26px;
+    }
 }
 
 /*==========================
@@ -45,14 +69,60 @@
         border-color: #fff;
     }
 
+    .header__menu ul li a.menu-ativo {
+        border-color: #fff;
+    }
+
     /*==========================
-    INTRODUÇÃO 
+        INTRODUÇÃO 
     ============================*/
 
     .introducao {    
         margin-top: 0;
-        padding-top: 20px;
+        padding-top: 50px;
         background: url("../img/bg-mobile.jpg") no-repeat center;
         background-size: cover;
+    }
+
+    .introducao h1 {
+        font-size: 36px;
+    }
+
+    /*==========================
+        PRODUTOS 
+    ============================*/
+
+    .produtos {
+        padding: 30px 0;
+    }
+
+    /*==========================
+        QUALIDADE 
+    ============================*/
+
+    .qualidade {
+        padding: 30px 0;
+    }
+
+    /* Remove as linhas criadas na seção de qualidade */
+    .qualidade::after {
+        display: none; 
+    }
+
+    .qualidade__lista li {
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
+
+    .call-to-action {
+        padding: 10px;
+    }
+
+    /*==========================
+        FOOTER 
+    ============================*/
+
+    .copy p {
+        margin-bottom: 0;
     }
 }
