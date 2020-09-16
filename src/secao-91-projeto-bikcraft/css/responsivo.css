@@ -27,6 +27,35 @@
         width: 26px;
         height: 26px;
     }
+
+    /*==========================
+        PÁGINA-PRODUTOS 
+    ============================*/
+
+    .produto-item h2 {
+        top: 80px;
+        left: 170px;
+    }
+
+    .produto-item__icone {
+        padding: 41px 0;
+    }
+
+    .produto-item__info p {
+        height: 130px;
+        padding: 20px 30px;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .produto-item__info li {
+        height: 45px;
+        width: 181px;
+        padding-top: 14px;
+  
+        font-size: 14px;
+    }
 }
 
 /*==========================
@@ -144,5 +173,49 @@
 
     .copy p {
         margin-bottom: 0;
+    }
+
+     /*==========================
+        PÁGINA-PRODUTOS 
+    ============================*/
+
+    .produto-item h2 {
+        top: 30px;
+        left: 65px;
+    }
+
+    .produto-item__icone {
+        padding: 41px 0;
+    }
+
+    .produto-item__info p {
+        height: 130px;
+        padding: 20px 30px;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .produto-item__info li {
+        height: 45px;
+        width: 149px;
+        padding-top: 14px;
+  
+        font-size: 14px;
+    }
+
+    /*==========================
+        ORCAMENTO - FORMULÁRIO
+    ============================*/
+    
+    .form {
+        padding-right: 0;
+    }
+
+    /*==========================
+        ORCAMENTO - DADOS
+    ============================*/
+    .orcamento__dados ul {
+        padding-right: 0;
     }
 }
