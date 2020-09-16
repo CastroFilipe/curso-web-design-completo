@@ -247,6 +247,10 @@ img {
     text-align: center;
 }
 
+.produtos__lista li img {
+    margin: 0 auto;
+}
+
 .produtos__lista li h3 {
     margin-top: 20px;
 

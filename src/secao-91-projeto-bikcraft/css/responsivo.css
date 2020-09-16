@@ -1,0 +1,58 @@
+/*==========================
+    ESTILOS PARA TABLETE  
+============================*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+}
+
+/*==========================
+    ESTILOS PARA SMARTPHONE  
+============================*/
+@media only screen and (max-width: 787px) {
+
+    /*==========================
+        HEADER/CABEÇALHO  
+    ============================*/
+    .header {
+        position: relative; /*Necessário para remover o fixed definido em style.css*/
+        
+        padding-bottom: 0;
+    }
+
+    .header img {
+        margin: 0 auto 10px auto; /*centralizar a logo do cabeçalho*/
+    }
+
+    .header__menu {
+        text-align: center;
+    }
+
+    .header__menu ul li {
+        margin: 5px;
+    }
+
+    .header__menu ul li a{
+        display: block;
+        float: left;
+
+        width: 136px;
+        /* padding: 10px 0; */
+
+        border: 4px solid #000;
+    }
+
+    .header__menu ul li a:hover {
+        border-color: #fff;
+    }
+
+    /*==========================
+    INTRODUÇÃO 
+    ============================*/
+
+    .introducao {    
+        margin-top: 0;
+        padding-top: 20px;
+        background: url("../img/bg-mobile.jpg") no-repeat center;
+        background-size: cover;
+    }
+}
