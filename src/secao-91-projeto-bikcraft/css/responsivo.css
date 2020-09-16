@@ -89,6 +89,26 @@
     }
 
     /*==========================
+        INTRODUÇÃO INTERNA
+    ============================*/
+
+    .introducao-interna {
+        margin-top: 0;
+    }
+
+    /* Sobrescrevendo o padding-right declarado no arquivo sobre.css */
+    .missao-sobre p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0;
+    }
+
+    .missao-sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /*==========================
         PRODUTOS 
     ============================*/
 
