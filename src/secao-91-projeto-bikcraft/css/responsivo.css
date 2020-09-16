@@ -218,4 +218,12 @@
     .orcamento__dados ul {
         padding-right: 0;
     }
+
+    /*==========================
+        CONTATO - FORMULÁRIO
+    ============================*/
+    .contato__form {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
 }
