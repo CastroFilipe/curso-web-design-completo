@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/simple-anime.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -31,12 +33,12 @@
 
     <section class="introducao-interna interna-produtos">
         <div class="container">
-            <h1>Produtos</h1>
-            <p>Conheça todos os nossos produtos</p>
+            <h1 data-anime="500" class="fadeInDown">Produtos</h1>
+            <p data-anime="800" class="fadeInDown">Conheça todos os nossos produtos</p>
         </div>
     </section>
 
-    <section class="produto-item">
+    <section data-anime="1200" class="produto-item fadeIndown">
         <!-- Passeio -->
         <div class="container passeio">
 
@@ -236,6 +238,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
