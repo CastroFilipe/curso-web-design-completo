@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
     <link rel="stylesheet" href="css/simple-slide.css">
+    <link rel="stylesheet" href="css/simple-anime.css">
     <script>document.documentElement.classList.add('js');</script>
 </head>
 
@@ -33,12 +34,12 @@
 
     <section class="introducao-interna interna-portfolio">
         <div class="container">
-            <h1>Portfólio</h1>
-            <p>Conheça os projetos que amamos fazer</p>
+            <h1 data-anime="500" class="fadeInDown">Portfólio</h1>
+            <p data-anime="800" class="fadeInDown">Conheça os projetos que amamos fazer</p>
         </div>
     </section>
 
-    <section class="container" data-slide="quote">
+    <section data-anime="1200" class="container fadeInDown" data-slide="quote">
         <blockquote class="depoimento">
             <p>
                 “Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa
@@ -69,7 +70,7 @@
     </section>
 
     <section class="portfolio">
-        <div class="container" data-slide="galeria">
+        <div class="container" data-slide="galeria" data-anime="1500">
             <ul class="portfolio__lista">
                 <li class="grid-8">
                     <img src="img/portfolio/retro.jpg" alt="Bicicleta Retro">
@@ -165,6 +166,7 @@
         </div>
     </footer>
 
+    <script src="js/simple-anime.js"></script>
     <script src="js/simple-slide.js"></script>
     <script src="js/script.js"></script>
 </body>

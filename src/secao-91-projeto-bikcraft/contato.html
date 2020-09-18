@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/simple-anime.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -31,14 +33,14 @@
 
     <section class="introducao-interna interna-contato">
         <div class="container">
-            <h1>Contato</h1>
-            <p>Tire suas dúvidas conosco</p>
+            <h1 data-anime="500" class="fadeInDown">Contato</h1>
+            <p data-anime="700" class="fadeInDown">Tire suas dúvidas conosco</p>
         </div>
     </section>
 
 
     <section class="contato container">
-        <div class="container">
+        <div data-anime="1200" class="container fadeInDown">
             <form id="form_contato" class="contato__form grid-8" action="">
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" id="nome">
@@ -162,6 +164,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
