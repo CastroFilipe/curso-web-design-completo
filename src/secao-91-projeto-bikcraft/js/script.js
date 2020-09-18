@@ -13,3 +13,7 @@ if (window.SimpleSlide) {
         pauseOnHover: true, // pausa a transição automática ao passar o mouse
     });
 }
+
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}

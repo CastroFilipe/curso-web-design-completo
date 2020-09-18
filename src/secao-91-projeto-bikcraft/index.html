@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/simple-anime.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -30,15 +32,15 @@
 
     <section class="introducao">
         <div class="container">
-            <h1>Bicicletas feitas a mão</h1>
-            <blockquote class="citacao">
+            <h1 data-anime="500" class="fadeInDown">Bicicletas feitas a mão</h1>
+            <blockquote data-anime="700" class="citacao fadeInDown">
                 <p>
                     "Não tenha nada em sua casa que você não considere útil ou acredite ser bonito"
                 </p>
                 <cite class="citacao__autor">William Morris</cite>
             </blockquote>
         </div>
-        <a href="produtos.html" class="btn">Orçamento</a>
+        <a href="produtos.html" data-anime="900" class="btn">Orçamento</a>
     </section>
 
     <section class="produtos container">
@@ -197,6 +199,8 @@
         </div>
     </footer>
 
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
