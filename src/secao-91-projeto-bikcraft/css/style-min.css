@@ -1,0 +1,1649 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+========================================================================== */
+
+/**
+* 1. Correct the line height in all browsers.
+* 2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+    ========================================================================== */
+
+/**
+* Remove the margin in all browsers.
+*/
+
+body {
+    margin: 0;
+}
+
+/**
+* Render the `main` element consistently in IE.
+*/
+
+main {
+    display: block;
+}
+
+/**
+* Correct the font size and margin on `h1` elements within `section` and
+* `article` contexts in Chrome, Firefox, and Safari.
+*/
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+    ========================================================================== */
+
+/**
+* 1. Add the correct box sizing in Firefox.
+* 2. Show the overflow in Edge and IE.
+*/
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+* 1. Correct the inheritance and scaling of font size in all browsers.
+* 2. Correct the odd `em` font sizing in all browsers.
+*/
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+    ========================================================================== */
+
+/**
+* Remove the gray background on active links in IE 10.
+*/
+
+a {
+    background-color: transparent;
+}
+
+/**
+* 1. Remove the bottom border in Chrome 57-
+* 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+*/
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+* Add the correct font weight in Chrome, Edge, and Safari.
+*/
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+* 1. Correct the inheritance and scaling of font size in all browsers.
+* 2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+* Add the correct font size in all browsers.
+*/
+
+small {
+font-size: 80%;
+}
+
+/**
+* Prevent `sub` and `sup` elements from affecting the line height in
+* all browsers.
+*/
+
+sub,
+sup {
+font-size: 75%;
+line-height: 0;
+position: relative;
+vertical-align: baseline;
+}
+
+sub {
+bottom: -0.25em;
+}
+
+sup {
+top: -0.5em;
+}
+
+/* Embedded content
+    ========================================================================== */
+
+/**
+* Remove the border on images inside links in IE 10.
+*/
+
+img {
+border-style: none;
+}
+
+/* Forms
+    ========================================================================== */
+
+/**
+* 1. Change the font styles in all browsers.
+* 2. Remove the margin in Firefox and Safari.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+font-family: inherit; /* 1 */
+font-size: 100%; /* 1 */
+line-height: 1.15; /* 1 */
+margin: 0; /* 2 */
+}
+
+/**
+* Show the overflow in IE.
+* 1. Show the overflow in Edge.
+*/
+
+button,
+input { /* 1 */
+overflow: visible;
+}
+
+/**
+* Remove the inheritance of text transform in Edge, Firefox, and IE.
+* 1. Remove the inheritance of text transform in Firefox.
+*/
+
+button,
+select { /* 1 */
+text-transform: none;
+}
+
+/**
+* Correct the inability to style clickable types in iOS and Safari.
+*/
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+-webkit-appearance: button;
+}
+
+/**
+* Remove the inner border and padding in Firefox.
+*/
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+border-style: none;
+padding: 0;
+}
+
+/**
+* Restore the focus styles unset by the previous rule.
+*/
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+outline: 1px dotted ButtonText;
+}
+
+/**
+* Correct the padding in Firefox.
+*/
+
+fieldset {
+padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+* 1. Correct the text wrapping in Edge and IE.
+* 2. Correct the color inheritance from `fieldset` elements in IE.
+* 3. Remove the padding so developers are not caught out when they zero out
+*    `fieldset` elements in all browsers.
+*/
+
+legend {
+box-sizing: border-box; /* 1 */
+color: inherit; /* 2 */
+display: table; /* 1 */
+max-width: 100%; /* 1 */
+padding: 0; /* 3 */
+white-space: normal; /* 1 */
+}
+
+/**
+* Add the correct vertical alignment in Chrome, Firefox, and Opera.
+*/
+
+progress {
+vertical-align: baseline;
+}
+
+/**
+* Remove the default vertical scrollbar in IE 10+.
+*/
+
+textarea {
+overflow: auto;
+}
+
+/**
+* 1. Add the correct box sizing in IE 10.
+* 2. Remove the padding in IE 10.
+*/
+
+[type="checkbox"],
+[type="radio"] {
+box-sizing: border-box; /* 1 */
+padding: 0; /* 2 */
+}
+
+/**
+* Correct the cursor style of increment and decrement buttons in Chrome.
+*/
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+height: auto;
+}
+
+/**
+* 1. Correct the odd appearance in Chrome and Safari.
+* 2. Correct the outline style in Safari.
+*/
+
+[type="search"] {
+-webkit-appearance: textfield; /* 1 */
+outline-offset: -2px; /* 2 */
+}
+
+/**
+* Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+[type="search"]::-webkit-search-decoration {
+-webkit-appearance: none;
+}
+
+/**
+* 1. Correct the inability to style clickable types in iOS and Safari.
+* 2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+-webkit-appearance: button; /* 1 */
+font: inherit; /* 2 */
+}
+
+/* Interactive
+    ========================================================================== */
+
+/*
+* Add the correct display in Edge, IE 10+, and Firefox.
+*/
+
+details {
+display: block;
+}
+
+/*
+* Add the correct display in all browsers.
+*/
+
+summary {
+display: list-item;
+}
+
+/* Misc
+    ========================================================================== */
+
+/**
+* Add the correct display in IE 10+.
+*/
+
+template {
+display: none;
+}
+
+/**
+* Add the correct display in IE 10.
+*/
+
+[hidden] {
+display: none;
+}
+
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+/**
+ * Remove anchor text-decoration
+ */ 
+
+ a {
+	text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */ 
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, blockquote, em, img, dl, dt, dd, ol, li, 
+fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+.container:after, .container:before {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, 
+.grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-1 	{width: 40px;}
+.grid-2 	{width: 100px;}
+.grid-3 	{width: 160px;}
+.grid-4 	{width: 220px;}
+.grid-5 	{width: 280px;}
+.grid-6 	{width: 340px;}
+.grid-7 	{width: 400px;}
+.grid-8 	{width: 460px;}
+.grid-9 	{width: 520px;}
+.grid-10 	{width: 580px;}
+.grid-11 	{width: 640px;}
+.grid-12 	{width: 700px;}
+.grid-13 	{width: 760px;}
+.grid-14 	{width: 820px;}
+.grid-15 	{width: 880px;}
+.grid-16 	{width: 940px;}
+.grid-1-3	{width: 300px;}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+    .container {
+        width: 768px;
+    }
+
+    .grid-1		{width: 28px;}
+    .grid-2		{width: 76px;}
+    .grid-3		{width: 124px;}
+    .grid-4		{width: 172px;}
+    .grid-5		{width: 220px;}
+    .grid-6		{width: 268px;}
+    .grid-7		{width: 316px;}
+    .grid-8		{width: 364px;}
+    .grid-9		{width: 412px;}
+    .grid-10	{width: 460px;}
+    .grid-11	{width: 508px;}
+    .grid-12	{width: 556px;}
+    .grid-13	{width: 604px;}
+    .grid-14	{width: 652px;}
+    .grid-15	{width: 700px;}
+    .grid-16	{width: 748px;}
+    .grid-1-3	{width: 236px;}
+
+}
+
+@media only screen and (max-width: 787px) {
+    .container {
+        width: 300px;
+    }
+
+    .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, 
+    .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+        width: 300px;
+        margin: 0 0 20px 0;
+        float: none;
+    }
+}
+
+/*==========================
+    ESTILOS GLOBAIS  
+============================*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+img {
+    display: block;
+    max-width: 100%; /*Torna a Imagem fluída, que se adaptará ao seu container*/
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+
+    color: #FEC63E;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    vertical-align: baseline;
+
+    border: 3px solid #FEC63E;
+}
+
+.btn:hover {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.btn--black:hover {
+    color: #000;
+    border-color: #000;
+}
+
+.subtitulo {
+    margin-bottom: 40px;
+
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitulo::after {
+    content: "";
+    
+    display: block;
+    margin: 8px auto;
+    width: 60px;
+    height: 3px;
+
+    background-color: #000;
+}
+
+/*==========================
+    INTRODUÇÃO-INTERNA  
+============================*/
+
+.subtitulo-interno {
+    margin-bottom: 20px;
+
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: 1.875rem;
+    text-transform: uppercase;
+}
+
+.subtitulo-interno::after {
+    content: "";
+    
+    display: block;
+    margin: 8px 0;
+    width: 60px;
+    height: 3px;
+
+    background-color: #000;
+}
+
+
+/*==========================
+    HEADER/CABEÇALHO  
+============================*/
+
+.header {
+    width: 100%; /*100% do body*/
+    padding: 15px 0;
+
+    position: fixed; /*O header irá acompanhar o scroll no site*/
+    top: 0; /*garante que o header ficará posicionado no topo*/
+
+    background-color: #FEC63E;
+
+    /* 
+    Necessário para que o header fique por cima dos outros elementos quando
+    o usuário fizer o scroll da página 
+    */
+    z-index: 99;
+}
+
+.header__menu {
+    text-align: right;
+}
+
+.header__menu ul li {
+    display: inline-block;
+
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header__menu ul li a{
+    padding: 10px 0;
+
+    color: #000;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.header__menu ul li a.menu-ativo {
+    color: #FFF;
+}
+
+.header__menu ul li a:hover{
+    color: #FFF;
+}
+
+.citacao {
+    max-width: 280px;
+    margin: 0 auto;
+
+    color: #fff;
+}
+
+.citacao p {
+    font-style: italic;
+}
+
+/* Trecho para adição do traço divisor tipográfico. */
+.citacao p::before, .citacao p::after {
+    content: " ";
+
+    display: block;
+    width: 60px;
+    height: 3px;
+    
+    margin: 15px auto 10px auto;
+    
+    background-color: #fff;
+}
+
+.citacao__autor {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+/*==========================
+    INTRODUÇÃO-INTERNA  
+============================*/
+
+.introducao-interna {
+    width: 100%;
+    height: 160px;
+    padding: 40px 0;
+    margin-top: 92px;
+
+    color: #fff;
+    text-align: center;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1::after {
+    content: " ";
+
+    display: block;
+    width: 60px;
+    height: 3px;
+    
+    margin: 5px auto 10px auto;
+    
+    background-color: #fff;
+}
+
+/*==========================
+    INTRODUÇÃO 
+============================*/
+
+.introducao {
+    width: 100%;
+    height: 380px; /*Altura da imagem*/
+    /*Necessário pois o header possuí 96px de altura e está definido com position fixed*/
+    margin-top: 92px; 
+    padding-top: 80px; /*para alinhar o texto mais ao centro*/
+
+    background: url('../img/bg.jpg') no-repeat center;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.introducao h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao .btn {
+    margin-top: 30px;
+}
+
+/*==========================
+    PRODUTOS 
+============================*/
+
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos__lista li {
+    background-color: #FEC63E;
+    text-align: center;
+}
+
+.produtos__lista li img {
+    margin: 0 auto;
+}
+
+.produtos__lista li h3 {
+    margin-top: 20px;
+
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.56rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.produtos__lista li h3::after {
+    content: "";
+    
+    display: block;
+    margin: 2px auto;
+    width: 60px;
+    height: 3px;
+
+    background-color: #000;
+}
+
+.produtos__lista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+.produtos__icone {
+    background-color: #000;
+    padding: 20px;
+}
+
+.call-to-action {
+    clear: both;
+
+    padding-top: 40px;
+
+    text-align: center;
+}
+
+.call-to-action p {
+    margin-bottom: 10px;
+}
+
+/*==========================
+    PORTFÓLIO 
+============================*/
+
+.portfolio {
+    width: 100%;
+    padding: 40px 0;
+
+    background-color: #000;
+}
+
+.portfolio .subtitulo {
+    color: #FEC63E;
+}
+
+.portfolio .subtitulo::after {
+    background-color: #FEC63E;
+}
+
+.portfolio__lista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call-to-action p {
+    color: #fff;
+}
+
+/*==========================
+    QUALIDADE
+============================*/
+
+.qualidade {
+    padding: 60px 0;
+
+    text-align: center;
+}
+
+/* Trecho para adicionar a imagem com linhas */
+.qualidade::after {
+    content: "";
+    
+    display: block;
+    position: absolute;
+    top: 209px;
+    right: 162px;
+    z-index: -99;
+
+    width: 634px; /*Tamanho da imagem com as linhas*/
+    height: 83px;
+    
+    background: url("../img/linhas.svg") no-repeat center; 
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade__lista {
+    padding-top: 20px;
+    overflow: auto; /*clear fix*/
+}
+
+.qualidade__lista li {
+    padding: 0 40px;
+}
+
+.qualidade__lista li h3 {
+    margin-top: 20px;
+
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.56rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.qualidade__lista li h3::after {
+    content: "";
+    
+    display: block;
+    margin: 6px auto;
+    width: 60px;
+    height: 3px;
+
+    background-color: #000;
+}
+
+/*==========================
+    PRE-FOOTER
+============================*/
+
+.pre-footer {
+    width: 100%;
+    height: 220px;
+    padding: 50px 0;
+
+    text-align: center;
+
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.pre-footer .citacao {
+    max-width: 380px;
+}
+
+/*==========================
+    FOOTER
+============================*/
+
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    color: #FEC63E;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.footer h3::after {
+    content: "";
+    display: block;
+
+    margin: 6px 0 12px 0;
+    width: 60px;
+    height: 3px;
+
+    background-color: #FEC63E;
+}
+
+.footer__historia {
+    padding-right: 40px;
+}
+
+.footer ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer__social ul li {
+    display: inline-block;
+
+    margin-right: 10px;
+}
+
+.footer__social ul li a {
+    display: inline-block;
+
+    padding: 10px;
+
+    border: 3px solid #FEC63E;
+}
+
+.footer__social ul li a:hover {
+    border-color: #fff;
+}
+
+.copy {
+    width: 100%;
+    background-color: #FEC63E;
+    padding: 20px 0;
+}
+
+.interna-contato {
+    background: url("../img/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/*==========================
+    CONTATO - FORMULÁRIO
+============================*/
+
+.contato {
+    padding: 40px 0;
+}
+
+.contato__form {
+	padding-right: 60px;
+}
+
+.contato__form label{
+	display: block;
+    
+    margin-bottom: 4px;
+    
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.contato__form input {
+	display: block;
+    
+    width: 100%;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+    
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+    
+    border: 4px solid #fec63e;
+	background: none;
+    outline: 0;
+}
+
+.contato__form textarea {
+    display: block;
+    
+	width: 100%;
+	height: 120px;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+    
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+    
+    border: 4px solid #fec63e;
+    background: none;
+	outline: 0;
+}
+
+.contato__form textarea::placeholder {
+    color: #666;
+    opacity: 1; /* Firefox */
+}
+
+.contato__form button {
+	padding: 7px 40px;
+	background: none;
+}
+
+.contato__form button:hover {
+    color: #000;
+    
+    border-color: #000;
+}
+
+/*==========================
+    CONTATO - DADOS
+============================*/
+ 
+.contato__dados h3{
+	color: #fec63e;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contato__dados span {
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.email--espacamento, .endereco--espacamento {
+	margin-bottom: 40px;
+}
+
+/*==========================
+    SOCIAL
+============================*/
+
+.social h3 {
+    margin-bottom: 10px;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li img {
+    padding: 10px 10px;
+    margin-right: 10px;
+
+    border: 3px solid #fec63e;
+}
+
+.social ul li img:hover {
+    border-color: #000;
+}
+
+/*==========================
+    MAPA
+============================*/
+
+.mapa {
+    padding-bottom: 60px;
+}
+
+.interna-portfolio {
+    background: url("../img/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.depoimento {
+    padding: 60px 0 30px 0;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.depoimento p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.depoimento cite {
+    display: inline-block;
+
+    width: 100%;
+
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*==========================
+    PRODUTOS  
+============================*/
+
+.interna-produtos {
+    background: url("../img/bg-produtos.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.passeio, .esporte, .retro {
+    margin-bottom: 60px;
+}
+
+.produto-item {
+    position: relative;
+
+    width: 100%;
+    padding-top: 60px;
+}
+
+.produto-item h2 {
+    position: absolute;
+    top: 110px;
+    left: 240px;
+
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.produto-item h2::after, .produto-item h2::before {
+    content: "";
+    
+    display: block;
+    margin: 8px auto;
+    width: 60px;
+    height: 3px;
+
+    background-color: #fff;
+}
+
+.produto-item__icone {
+    padding: 70px 0;
+    margin-bottom: 20px;
+
+    background-color: #000;
+}
+
+.produto-item__icone img {
+    margin: 0 auto;
+}
+
+.bgitem--margin-extra {
+    margin-bottom: 20px;
+}
+
+.produto-item__info {
+    background-color: #000;
+}
+
+.produto-item__info p {
+    height: 180px;
+    padding: 30px 40px;
+
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.produto-item__info li {
+    float: left;
+    height: 49px;
+    width: 229px;
+    padding-top: 16px;
+
+    background-color: #FEC63E;
+
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.produto-item__info li:nth-child(1), .produto-item__info li:nth-child(2) {
+    margin-bottom: 2px;
+}
+
+.produto-item__info li:nth-child(even) {
+    margin-left: 2px;
+}
+
+/*==========================
+    ORCAMENTO - FORMULÁRIO
+============================*/
+
+.orcamento {
+	width: 100%;
+	margin-top: 60px;
+    padding: 40px 0;
+    
+	background: #000;
+}
+
+.orcamento h2 {
+	color: #fec63e;
+}
+
+.orcamento h2:after {
+	background: #fec63e;
+}
+
+.form {
+	padding-right: 60px;
+}
+
+.form label{
+	display: block;
+    
+    margin-bottom: 4px;
+    
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.form input {
+	display: block;
+    
+    width: 100%;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+    
+    color: #fff;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+    
+    border: 4px solid #fec63e;
+	background: none;
+    outline: 0;
+}
+
+
+
+.form textarea {
+    display: block;
+    
+	width: 100%;
+	height: 120px;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+    
+    color: #fff;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+    
+    border: 4px solid #fec63e;
+    background: none;
+	outline: 0;
+}
+
+.form textarea::placeholder {
+    color: #888;
+    opacity: 1; /* Firefox */
+}
+
+.form button {
+	padding: 7px 40px;
+	background: none;
+}
+
+/*==========================
+    ORCAMENTO - DADOS
+============================*/
+
+.orcamento__dados {
+	color: #fff;
+}
+ 
+.orcamento__dados h3{
+	color: #fec63e;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.orcamento__dados span {
+	display: block;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.dados-email {
+	margin-bottom: 40px;
+}
+
+.orcamento__dados ul {
+	padding-right: 60px;
+}
+
+.orcamento__dados ul li {
+    padding: 10px 15px;
+    
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+}
+
+.orcamento__dados ul li:nth-child(odd) {
+	background: #1d1d1d;
+}
+
+.orcamento__dados p {
+	margin: 8px 0;
+}
+
+/*==========================
+    INTRODUÇÃO-INTERNA  
+============================*/
+
+.interna-sobre {
+    background: url("../img/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.missao-sobre {
+    padding-top: 60px;
+}
+
+.missao-sobre p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.missao-sobre ul li {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto-equipe {
+    padding-top: 20px;
+}
+
+/*==========================
+    ESTILOS PARA TABLETE  
+============================*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    /*==========================
+        QUALIDADE 
+    ============================*/
+    /* Trecho para modificar a imagem com linhas */
+    .qualidade::after {
+        right: 66px; 
+    }
+
+    .qualidade__lista li {
+        padding: 0 10px;
+    }
+
+    /*==========================
+        FOOTER 
+    ============================*/
+
+    .footer__social ul li a {
+        padding: 5px;
+    }
+
+    .footer__social ul li a img {
+        /* diminui os icones das redes sociais */
+        width: 26px;
+        height: 26px;
+    }
+
+    /*==========================
+        PÁGINA-PRODUTOS 
+    ============================*/
+
+    .produto-item h2 {
+        top: 80px;
+        left: 170px;
+    }
+
+    .produto-item__icone {
+        padding: 41px 0;
+    }
+
+    .produto-item__info p {
+        height: 130px;
+        padding: 20px 30px;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .produto-item__info li {
+        height: 45px;
+        width: 181px;
+        padding-top: 14px;
+  
+        font-size: 14px;
+    }
+}
+
+/*==========================
+    ESTILOS PARA SMARTPHONE  
+============================*/
+@media only screen and (max-width: 787px) {
+
+    /*==========================
+        HEADER/CABEÇALHO  
+    ============================*/
+    .header {
+        position: relative; /*Necessário para remover o fixed definido em style.css*/
+        
+        padding-bottom: 0;
+    }
+
+    .header img {
+        margin: 0 auto 10px auto; /*centralizar a logo do cabeçalho*/
+    }
+
+    .header__menu {
+        text-align: center;
+    }
+
+    .header__menu ul li {
+        margin: 5px;
+    }
+
+    .header__menu ul li a{
+        display: block;
+        float: left;
+
+        width: 136px;
+        /* padding: 10px 0; */
+
+        border: 4px solid #000;
+    }
+
+    .header__menu ul li a:hover {
+        border-color: #fff;
+    }
+
+    .header__menu ul li a.menu-ativo {
+        border-color: #fff;
+    }
+
+    /*==========================
+        INTRODUÇÃO 
+    ============================*/
+
+    .introducao {    
+        margin-top: 0;
+        padding-top: 50px;
+        background: url("../img/bg-mobile.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .introducao h1 {
+        font-size: 36px;
+    }
+
+    /*==========================
+        INTRODUÇÃO INTERNA
+    ============================*/
+
+    .introducao-interna {
+        margin-top: 0;
+    }
+
+    /* Sobrescrevendo o padding-right declarado no arquivo sobre.css */
+    .missao-sobre p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0;
+    }
+
+    .missao-sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /*==========================
+        PRODUTOS 
+    ============================*/
+
+    .produtos {
+        padding: 30px 0;
+    }
+
+    /*==========================
+        QUALIDADE 
+    ============================*/
+
+    .qualidade {
+        padding: 30px 0;
+    }
+
+    /* Remove as linhas criadas na seção de qualidade */
+    .qualidade::after {
+        display: none; 
+    }
+
+    .qualidade__lista li {
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
+
+    .call-to-action {
+        padding: 10px;
+    }
+
+    /*==========================
+        FOOTER 
+    ============================*/
+
+    .copy p {
+        margin-bottom: 0;
+    }
+
+     /*==========================
+        PÁGINA-PRODUTOS 
+    ============================*/
+
+    .produto-item h2 {
+        top: 30px;
+        left: 65px;
+    }
+
+    .produto-item__icone {
+        padding: 41px 0;
+    }
+
+    .produto-item__info p {
+        height: 130px;
+        padding: 20px 30px;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .produto-item__info li {
+        height: 45px;
+        width: 149px;
+        padding-top: 14px;
+  
+        font-size: 14px;
+    }
+
+    /*==========================
+        ORCAMENTO - FORMULÁRIO
+    ============================*/
+    
+    .form {
+        padding-right: 0;
+    }
+
+    /*==========================
+        ORCAMENTO - DADOS
+    ============================*/
+    .orcamento__dados ul {
+        padding-right: 0;
+    }
+
+    /*==========================
+        CONTATO - FORMULÁRIO
+    ============================*/
+    .contato__form {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+}
+
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+}
+  
+/* 6 CSS recomendado para a navegação */
+.js [data-slide-nav] {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.js [data-slide-nav] > button {
+    display: inline-block;
+    width: 12px;
+    margin: 4px;
+    height: 12px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    background: #1d1d1d;
+    text-indent: -100px;
+    overflow: hidden;
+}
+
+.js [data-slide-nav] > button.active {
+    background: #fec454;
+}
+
+/* 6 Adicione o CSS Essêncial abaixo */
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+}
+  
+  /* 7 CSS personalizado dependendo da animação desejada */
+.fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+
+.fadeInUp {
+    transform: translate3d(0,20px,0);
+}
+
+.fadeInRight {
+    transform: translate3d(20px,0,0);
+}
+
+.fadeInLeft {
+    transform: translate3d(-20px,0,0);
+}
